@@ -1,0 +1,39 @@
+.reviews {
+    margin: 139px auto;
+    max-width: 1528px;
+    position: relative;
+    z-index: 5;
+
+    &__wrapper {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        &_mobile {
+            display: none !important;
+        }
+    }
+    &__item {
+        display: flex !important;
+        flex-direction: column;
+        max-width: 354px;
+        min-height: 306px !important;  
+        border-radius: 16px;
+        background: #8DB13E;
+        padding: 32px 36px 39px 41px;
+        margin: 32px 10px 0;
+        
+    }
+    &__rang {
+        height: 20px;
+        width: 105px;
+        background: left / contain repeat-x url('../assets/img/main/reviews/Star.png');
+    }
+    &__text {
+        margin-top: 28px;
+    }
+    &__author {
+        margin-top: auto;
+    }
+}

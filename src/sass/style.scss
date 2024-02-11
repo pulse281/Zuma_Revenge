@@ -1,0 +1,83 @@
+/* Normalize (npm) */
+@import "node_modules/normalize-scss/sass/normalize/import-now";
+
+
+/* Variables */
+
+$white: #FFFFFF;
+$black: #272828;
+
+
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    position: relative;
+}
+
+h1, h2, h3, div, p, ul, ol {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    font-size: 111px;
+    line-height: 107%;
+    letter-spacing: 1.11px;
+}
+
+h2 {
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    font-size: 48px;
+    color: #9FE867;
+    text-transform: uppercase;
+    text-align: center
+}
+
+.text {
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 160%;
+    color: $white;
+}
+.menu__link, .footer__link, .footer__rights, .footer__terms-divider {
+    font-family: 'Lexend', sans-serif;
+    color: $white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+
+
+/* font-family: 'Lexend', sans-serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Sora', sans-serif; */
+
+@import 'blocks/show-hide.scss';
+
+@import 'blocks/header';
+@import 'blocks/menu';
+
+@import 'blocks/button.scss';
+
+@import 'blocks/top.scss';
+
+@import 'blocks/main.scss';
+@import 'blocks/advantages.scss';
+@import 'blocks/about.scss';
+@import 'blocks/reviews.scss';
+@import 'blocks/gallery.scss';
+
+@import 'blocks/footer.scss';
+
+@import 'blocks/zuma-balls.scss';
+
+@import 'blocks/privacy.scss';
+
+@import 'blocks/media.scss';
+

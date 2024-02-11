@@ -1,0 +1,25 @@
+.about {
+    margin: 108px auto 0;
+    max-width: 1277px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 5;
+
+    &__image-wrapper {
+        position: relative;
+    }
+    &__image{
+        position: absolute;
+        top: -108px;
+    }
+    &__text-wrapper {
+        max-width: 696px;
+        width: 100%;
+
+    }
+    &__text {
+        margin-top: 60px;
+        max-width: 583px;
+    }
+}

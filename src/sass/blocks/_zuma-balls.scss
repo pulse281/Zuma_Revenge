@@ -1,0 +1,43 @@
+.zuma__balls {
+    position: absolute;
+    z-index: 0;
+}
+
+.top__ball-1 {
+    top: 430px;
+    left: 110px;
+}
+.top__ball-2 {
+    top: 220px;
+    right: 350px;
+}
+.top__ball-3 {
+    top: 260px;
+    right: 950px;
+}
+.top__ball-4 {
+    top: 660px;
+    right: 850px;
+}
+
+.main__ball-1 {
+    top: 50px;
+    right: 150px;
+    z-index: 2;
+}
+.main__ball-2 {
+    top: 1450px;
+    right: 128px;
+}
+.main__ball-3 {
+    top: 790px;
+    left: 0;
+}
+.main__ball-4 {
+    top: 1660px;
+    right: 0;
+}
+
+.zuma__balls_mobile {
+    display: none;
+}

@@ -1,0 +1,34 @@
+.privacy {
+    background-color: #154D3E;
+    padding: 190px 0 90px;
+
+    &__wrapper {
+        max-width: 1216px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 5;
+    }
+    &__title {
+        font-size: 48px;
+        font-weight: 400;
+        color: #9FE867; 
+    }
+    &__text-title {
+        margin-top: 56px;
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 140%;
+        color: #9FE867;
+
+    }
+    &__text {
+        max-width: 1050px;
+        font-weight: 400;
+        margin-top: 24px;
+    }
+    &__text-link {
+        text-decoration: none;
+        font-weight: 400;
+    }
+}

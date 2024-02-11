@@ -1,0 +1,28 @@
+.button {
+    display: block;
+    height: 88px;
+    width: 100%;
+    max-width: 270px;
+    background: center / cover no-repeat url('../assets/img/button/button.png');
+    transition: all, .3s;
+
+    &_top {
+        margin-top: 39px;
+        border-radius: 15px;
+    }
+    &_gallery {
+        margin: 77px auto 0;
+        max-height: 80px;
+        border-radius: 10px;
+
+    }
+
+    &:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 28.3px 21px rgba(108,242,74,.45);
+    }
+    &:active {
+        transform: scale(1);
+        box-shadow: none;
+    }
+}

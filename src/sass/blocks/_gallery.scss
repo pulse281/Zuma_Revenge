@@ -1,0 +1,61 @@
+.gallery {
+    padding: 30px 0 0;
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+    z-index: 5;
+   
+    &__item {
+        max-height: 451px;
+    transition: all, 1s;
+
+
+    }
+    &__image {
+        height: 100%;
+    }
+    &__arrows {
+        max-width: 152px;
+        width: 100%;
+        margin: 53px auto 0;
+        padding: 3px;
+        display: flex;
+        justify-content: space-between;
+
+        
+    }
+    &__previous {
+        background: center / contain no-repeat url('../assets/img/main/gallery/prev.svg');
+        width: 56px;
+        height: 56px;
+        cursor: pointer;
+        
+    }
+    &__next {
+        background: center / contain no-repeat url('../assets/img/main/gallery/next.svg');
+        width: 56px;
+        height: 56px;
+        cursor: pointer;
+    }
+        &__previous:active, &__next:active {
+        transform: scale(1.03);
+        }
+
+    /* slick slider css */
+
+        & .slider__item {
+            transform: scale(.8);
+        transition: all, .7s;
+    
+        }
+        & .slick-center {
+            transform: scale(1);
+            box-shadow: 0px 0px 28.3px 21px rgba(108, 242, 74, 0.45);
+        } 
+        & .slick-track {
+            padding: 50px 0;
+        }
+    }
+
+
+

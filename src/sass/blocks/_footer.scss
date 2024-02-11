@@ -1,0 +1,84 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #154D3E;
+    width: 100%;
+    padding: 83px 0 105px;
+    
+    & nav {
+        position: relative;
+        z-index: 5;
+    }
+    &__logo-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 5;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 26px;
+        position: relative;
+        z-index: 5;
+    }
+    &__logo {
+        width: 51px;
+        height: 51px;
+        background: center / contain no-repeat url('../assets/img/header/icon_3.png');
+    }
+    &__text {
+        margin-left: 12px;
+        font-family: 'Lexend', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 110%;
+        color: $white;
+    }
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+    &__policy, &__terms, &__terms-divider, &__link {
+        text-decoration: none;
+    }
+    &__policy, &__terms {
+        text-transform: uppercase;
+    }
+    &__reserved {
+        font-family: 'San Francisco Pro Display Light';
+        font-size: 10px;
+        line-height: 11.85px;
+        color: #FFFFFF;
+    }
+    &__divider {
+        width: 100%;
+        height: 1px;
+        margin: 51px 0 0;
+        background-color: $white;
+        position: relative;
+        z-index: 5;
+    }
+    &__plant {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    &__plant_mobile {
+        display: none;
+    }
+
+    /* privacy page */
+
+    &_privacy {
+        position: relative !important   ;
+        bottom: auto !important;
+        padding-top: 0;
+    }
+    &__plant_privacy {
+        display: block !important;
+    }
+}
